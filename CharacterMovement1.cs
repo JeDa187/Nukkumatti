@@ -14,7 +14,7 @@ public class CharacterMovement1 : MonoBehaviour
     public LayerMask groundLayer;
 
 
-
+    uusi koodi
 
 
     void Start()
