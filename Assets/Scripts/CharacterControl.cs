@@ -21,11 +21,23 @@ public class CharacterControl : MonoBehaviour
  
     public Image filler;
     public float counter;
-    public float maxCounter; 
-    
+    public float maxCounter;
+
+    //Doublejump
+    public int extraJumps;
+
+    int jumpCount = 0;
+    float jumpCoolDown;
+
+    //Parachute
+    public float glidingSpeed;
+    public float initialGravityScale;
 
 
-    // Start is called before the first frame update
+
+
+
+
     void Start()
     {
         // T‰m‰ on sama asia kuin raahaisi inspectorissa
@@ -34,20 +46,46 @@ public class CharacterControl : MonoBehaviour
         GameManager.manager.historyHealth = GameManager.manager.health;
         GameManager.manager.historyPreviousHealth = GameManager.manager.previousHealth;
         GameManager.manager.historyMaxHealth = GameManager.manager.maxHealth;
+
     }
 
-    // Update is called once per frame
+
+    
+
     void Update()
     {
-        // Ground testi, eli ollaanko kosketuksissa maahan vai ei.
-        if(Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, groundCheckLayer))
+        //Parachute
+        if (Input.GetKey(KeyCode.P) & !grounded && rb2D.velocity.y <= 0)
         {
-            grounded = true;
+            rb2D.gravityScale = 0;
+            rb2D.velocity = new Vector2(rb2D.velocity.x, y:-glidingSpeed);
+            animator.SetBool("Parachute", true);
         }
         else
         {
-            grounded = false; 
+            rb2D.gravityScale = initialGravityScale;
+            animator.SetBool("Parachute", false);
+        }
+
+        // Ground testi, eli ollaanko kosketuksissa maahan vai ei.
+        if (Physics2D.OverlapCircle(groundCheckPosition.position, groundCheckRadius, groundCheckLayer))
+        {
+            grounded = true;
+            animator.SetBool("Jump", false);
+            jumpCount = 0;
+            jumpCoolDown = Time.time + 0.5f;
             
+        }
+        else
+        {
+            grounded = false;
+            animator.SetBool("Jump", true);
+
+        }
+
+        if (Time.time < jumpCoolDown)
+        {
+            grounded = true;
         }
 
 
@@ -57,7 +95,7 @@ public class CharacterControl : MonoBehaviour
         {
             // Meill‰ on a tai d pohjassa
             transform.localScale = new Vector3(Input.GetAxisRaw("Horizontal"), 1, 1);
-            animator.SetBool("Walk", true);
+            animator.SetBool("Walk", true); 
         }
         else
         {
@@ -66,10 +104,11 @@ public class CharacterControl : MonoBehaviour
         }
 
         // Hyppy
-        if (Input.GetButtonDown("Jump") && grounded == true)
+        if (Input.GetButtonDown("Jump") && grounded && jumpCount < extraJumps)
         {
             rb2D.velocity = new Vector2(0, jumpForce);
-            animator.SetTrigger("Jump");
+            jumpCount++;
+            
         }
 
         // t‰m‰ luo counterille laskurin, joka kasvaa maxCounteriin ja aloittaa uudestaan 0:sta. 
@@ -88,7 +127,7 @@ public class CharacterControl : MonoBehaviour
         filler.fillAmount = Mathf.Lerp(GameManager.manager.previousHealth / GameManager.manager.maxHealth, GameManager.manager.health / GameManager.manager.maxHealth, counter / maxCounter);
 
 
-        if(gameObject.transform.position.y < -10)
+        if(gameObject.transform.position.y < -50)
         {
             Die();
         }
@@ -100,9 +139,18 @@ public class CharacterControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             // Ollaan osuttu ansaan -> V‰hennet‰‰n healthia.
-            TakeDamage(20);
+            TakeDamage(60);
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            TakeDamage(60);
+        }
+
+
     }
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -154,7 +202,7 @@ public class CharacterControl : MonoBehaviour
 
         GameManager.manager.previousHealth = filler.fillAmount * GameManager.manager.maxHealth;
         counter = 0; 
-        GameManager.manager.health -= dmg; // T‰m‰ v‰hent‰‰ dmg:n verran health arvosta. health = health - dmg;
+        GameManager.manager.health -= dmg; // T‰m‰ v‰hent‰‰ damage:n verran health arvosta. health = health - dmg;
 
         if(GameManager.manager.health < 0)
         {
