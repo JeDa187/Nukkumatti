@@ -58,3 +58,6 @@ TagManager:
   - name: New Layer 3
     uniqueID: 3740491037
     locked: 0
+  - name: Parallax
+    uniqueID: 2989749789
+    locked: 0

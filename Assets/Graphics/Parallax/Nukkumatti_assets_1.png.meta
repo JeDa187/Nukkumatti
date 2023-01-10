@@ -113,14 +113,14 @@ TextureImporter:
         width: 1248
         height: 1146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd662b447a83df047af5b51e77395571
-      internalID: 255844240
+      spriteID: 68695291e07beb946a4067342f753526
+      internalID: -1074002212
       vertices: []
       indices: 
       edges: []
@@ -134,14 +134,14 @@ TextureImporter:
         width: 507
         height: 680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd6b93a0877b0034b81b880ba7b5e56b
-      internalID: 2119592586
+      spriteID: f90c0c98776f72a4f9a92e01ba677a71
+      internalID: -1256593756
       vertices: []
       indices: 
       edges: []
@@ -155,14 +155,14 @@ TextureImporter:
         width: 415
         height: 363
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82920a50a783ce44f87e1b36dd9c1411
-      internalID: -2139895076
+      spriteID: 826ff4068010d1348a35473cf046abce
+      internalID: -764435833
       vertices: []
       indices: 
       edges: []
@@ -176,14 +176,14 @@ TextureImporter:
         width: 457
         height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873dc9b800221d942b70c5438c80aba7
-      internalID: 1019018698
+      spriteID: 93a28336e2c0f9348aa89aaa8321071e
+      internalID: -1379013629
       vertices: []
       indices: 
       edges: []
@@ -197,14 +197,14 @@ TextureImporter:
         width: 887
         height: 322
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a64e85ef2080ff24a93a082430cbf951
-      internalID: -1868561359
+      spriteID: 82812ed2feb1ab14485c4ee6d9e37e3a
+      internalID: 1649210542
       vertices: []
       indices: 
       edges: []
@@ -213,61 +213,19 @@ TextureImporter:
       name: Nukkumatti_assets_1_5
       rect:
         serializedVersion: 2
-        x: 2159
+        x: 1059
         y: 26
-        width: 768
-        height: 439
+        width: 1868
+        height: 430
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5059d0ddc6a106439cacb93dc601795
-      internalID: -1378666719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nukkumatti_assets_1_6
-      rect:
-        serializedVersion: 2
-        x: 1050
-        y: 47
-        width: 841
-        height: 423
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29156fd5ba091b54d829de33c1a76ebd
-      internalID: 1131065308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nukkumatti_assets_1_7
-      rect:
-        serializedVersion: 2
-        x: 1050
-        y: 20
-        width: 1886
-        height: 450
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 356f3ac6a87fe50408f1053ce3cdf3ce
-      internalID: 601480955
+      spriteID: 0ee2506e614cd1241a52de35d5826e0f
+      internalID: -435649266
       vertices: []
       indices: 
       edges: []
@@ -283,14 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Nukkumatti_assets_1_3: 1019018698
-      Nukkumatti_assets_1_0: 255844240
-      Nukkumatti_assets_1_6: 1131065308
-      Nukkumatti_assets_1_2: -2139895076
-      Nukkumatti_assets_1_7: 601480955
-      Nukkumatti_assets_1_4: -1868561359
-      Nukkumatti_assets_1_1: 2119592586
-      Nukkumatti_assets_1_5: -1378666719
+      Nukkumatti_assets_1_3: -1379013629
+      Nukkumatti_assets_1_0: -1074002212
+      Nukkumatti_assets_1_2: -764435833
+      Nukkumatti_assets_1_4: 1649210542
+      Nukkumatti_assets_1_1: -1256593756
+      Nukkumatti_assets_1_5: -435649266
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

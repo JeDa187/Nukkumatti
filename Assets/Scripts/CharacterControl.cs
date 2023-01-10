@@ -139,14 +139,10 @@ public class CharacterControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             // Ollaan osuttu ansaan -> V‰hennet‰‰n healthia.
-            TakeDamage(60);
+            TakeDamage(600);
         }
 
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            TakeDamage(60);
-        }
-
+        
 
     }
 

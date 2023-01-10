@@ -33,6 +33,7 @@ public class EnemyPatrol : MonoBehaviour
     }
 
     private void Update()
+
     {
         if (movingLeft)
         {

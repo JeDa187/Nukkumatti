@@ -125,9 +125,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4338242776301871133}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4300003, y: -2.0700006, z: -2.1864862}
-  m_LocalScale: {x: 0.8406999, y: 1.0505002, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4338242774829595992}
@@ -257,12 +257,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7733fe731e54c5d4dbb9ef2532108cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftEdge: {fileID: 0}
-  rightEdge: {fileID: 0}
-  enemy: {fileID: 0}
-  speed: 6.08
-  idleDuration: 0
-  anim: {fileID: 0}
+  leftEdge: {fileID: 4338242775108321074}
+  rightEdge: {fileID: 4338242775364169180}
+  enemy: {fileID: 4338242776301871121}
+  speed: 5
+  idleDuration: 1
+  anim: {fileID: 7752578293131517849}
 --- !u!95 &7752578293131517849
 Animator:
   serializedVersion: 4
