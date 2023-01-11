@@ -15,9 +15,15 @@ C:/Users/hilla/Desktop/2D_Projekti_ Nukkumatti/Nukkumatti
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 50697
 Successfully changed project path to: C:/Users/hilla/Desktop/2D_Projekti_ Nukkumatti/Nukkumatti
 C:/Users/hilla/Desktop/2D_Projekti_ Nukkumatti/Nukkumatti
+=======
+62619
+Successfully changed project path to: C:/Users/liisa/Documents/Unityprojektit/Nukkumatti
+C:/Users/liisa/Documents/Unityprojektit/Nukkumatti
+>>>>>>> Grafiikka-Liisa
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +53,19 @@ C:/Users/hilla/Desktop/2D_Projekti_ Nukkumatti/Nukkumatti
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [20260] Host "[IP] 192.168.50.104 [Port] 0 [Flags] 2 [Guid] 124526994 [EditorId] 124526994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V1OIER8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [20260] Host "[IP] 192.168.50.104 [Port] 0 [Flags] 2 [Guid] 124526994 [EditorId] 124526994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V1OIER8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 85.55 ms, found 4 plugins.
+=======
+Player connection [44604] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 3017156328 [EditorId] 3017156328 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-R598NBMC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [44604] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 3017156328 [EditorId] 3017156328 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-R598NBMC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 82.15 ms, found 4 plugins.
+>>>>>>> Grafiikka-Liisa
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,6 +81,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -80,11 +95,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (583ms)
 		BeginReloadAssembly (71ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005480 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (92ms)
+>>>>>>> Grafiikka-Liisa
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (413ms)
 			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -92,24 +123,45 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
 			SetupLoadedEditorAssemblies (253ms)
+=======
+		EndReloadAssembly (387ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (245ms)
+>>>>>>> Grafiikka-Liisa
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (122ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
+=======
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+>>>>>>> Grafiikka-Liisa
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.009100 seconds.
+=======
+Registered in 0.008309 seconds.
+>>>>>>> Grafiikka-Liisa
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hilla\Desktop\2D_Projekti_ Nukkumatti\Nukkumatti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hilla\Desktop\2D_Projekti_ Nukkumatti\Nukkumatti\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 81.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -117,10 +169,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1018ms)
 		BeginReloadAssembly (101ms)
+=======
+Refreshing native plugins compatible for Editor in 71.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (100ms)
+>>>>>>> Grafiikka-Liisa
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (16ms)
 		EndReloadAssembly (807ms)
 			LoadAssemblies (82ms)
@@ -150,6 +212,37 @@ Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (56.7 KB). Loaded Objects now: 4520.
 Memory consumption went from 153.1 MB to 153.0 MB.
 Total: 3.446500 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.187700 ms MarkObjects: 2.922100 ms  DeleteObjects: 0.084200 ms)
+=======
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4520.
+Memory consumption went from 153.1 MB to 153.1 MB.
+Total: 2.936600 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.491500 ms  DeleteObjects: 0.085000 ms)
+>>>>>>> Grafiikka-Liisa
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +256,44 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 10865.089582 seconds.
   path: Assets/Scenes/Background Test Scene.unity
   artifactKey: Guid(d7b8f1cb842238b4785c3298077bb7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Background Test Scene.unity using Guid(d7b8f1cb842238b4785c3298077bb7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407937aabb7cdb551516bb0baccf7921') in 0.009129 seconds 
+=======
+  Time since last request: 797948.741562 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f58b88bb02460f5116a52d0f4e1f05a') in 0.034133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.060677 seconds.
+  path: Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows.png
+  artifactKey: Guid(217c5cf14c726d94ab21683616ea0dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows.png using Guid(217c5cf14c726d94ab21683616ea0dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69f08c76217efe976742db7ae8a37bc') in 0.194240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.590632 seconds.
+  path: Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png
+  artifactKey: Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png using Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb7d8e6be4997eaed0810f3885c5b1') in 0.160056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.694067 seconds.
+  path: Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png
+  artifactKey: Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png using Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dffcbdadbdbfd1244f582ae197265f7') in 0.022729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.361488 seconds.
+  path: Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png
+  artifactKey: Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png using Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5633924e790e8aa0107f1762c176419') in 0.050470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.129826 seconds.
+  path: Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png
+  artifactKey: Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafiikka-Liisa/Graphics/Backgrounds/Menu Hub/Revised_Windows 1.png using Guid(5d101c5c0b10f8842b42efeea92e1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18594bed45bac3090c87bb6bbecb9bbc') in 0.021130 seconds 
+>>>>>>> Grafiikka-Liisa
