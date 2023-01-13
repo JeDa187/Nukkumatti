@@ -42,6 +42,7 @@ public class EnemyPatrol : MonoBehaviour
             else
                 DirectionChange();
         }
+
         else
         {
             if (enemy.position.x <= rightEdge.position.x)

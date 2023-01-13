@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3f3baa8a0e40544e91537ef7693e5c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 15
   jumpForce: 40
   animator: {fileID: 1371205754086560667}
   rb2D: {fileID: 1371205754086560669}
@@ -224,8 +224,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -554476259
-  m_SortingLayer: 3
+  m_SortingLayerID: 848972179
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 355f117cc929dbb43875dd51720e2e64, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

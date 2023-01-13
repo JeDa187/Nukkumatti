@@ -34,10 +34,6 @@ public class CharacterControl : MonoBehaviour
     public float initialGravityScale;
 
 
-
-
-
-
     void Start()
     {
         // Tämä on sama asia kuin raahaisi inspectorissa
@@ -49,8 +45,6 @@ public class CharacterControl : MonoBehaviour
 
     }
 
-
-    
 
     void Update()
     {
@@ -139,7 +133,7 @@ public class CharacterControl : MonoBehaviour
         if (collision.gameObject.CompareTag("Trap"))
         {
             // Ollaan osuttu ansaan -> Vähennetään healthia.
-            TakeDamage(600);
+            TakeDamage(40);
         }
 
         
@@ -181,15 +175,6 @@ public class CharacterControl : MonoBehaviour
         GameManager.manager.previousHealth = filler.fillAmount * GameManager.manager.maxHealth;
         counter = 0;
         GameManager.manager.health += healAmount;
-        
-        // Vaihtoehto 1
-        /*
-        if(health > maxHealth)
-        {
-            health = maxHealth;
-        }
-        */
-        // Vaihtoehto 2
         GameManager.manager.health = Mathf.Clamp(GameManager.manager.health, 0, GameManager.manager.maxHealth);
     }
 
